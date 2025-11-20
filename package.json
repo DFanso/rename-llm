@@ -1,0 +1,30 @@
+{
+  "name": "rename-llm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^24.10.1",
+    "@types/yargs": "^17.0.35",
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.2",
+    "inquirer": "^13.0.1",
+    "openai": "^6.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}
