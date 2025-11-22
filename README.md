@@ -15,6 +15,25 @@ This tool uses an OpenRouter LLM (defaulting to a free model) to rename files in
     ```
     (You can skip `OPENROUTER_MODEL` to use the default free model).
 
+## Global Installation (Local)
+
+To use this tool from anywhere on your computer:
+
+1.  Build the project:
+    ```bash
+    npm run build
+    ```
+
+2.  Link the package globally:
+    ```bash
+    npm link
+    ```
+
+3.  Now you can run `rename-llm` in any directory:
+    ```bash
+    rename-llm --dir ./my-photos --prompt "Rename these based on their content"
+    ```
+
 ## Usage
 
 Run the tool using `ts-node` (for development) or build it.
