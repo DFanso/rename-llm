@@ -76,8 +76,8 @@ async function main() {
     baseURL: 'https://openrouter.ai/api/v1',
     apiKey: OPENROUTER_API_KEY,
     defaultHeaders: {
-      'HTTP-Referer': 'https://github.com/your-repo/rename-llm', // Optional, for including your app on openrouter.ai rankings.
-      'X-Title': 'Rename LLM CLI', // Optional. Shows in rankings on openrouter.ai.
+      'HTTP-Referer': 'https://github.com/dfanso/rename-llm', 
+      'X-Title': 'Rename LLM CLI', 
     }
   });
 
